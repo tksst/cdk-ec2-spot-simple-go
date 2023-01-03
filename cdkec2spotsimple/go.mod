@@ -1,4 +1,4 @@
-module github.com/tksst/cdk-ec2-spot-simple-go/cdkec2spotsimple
+module github.com/tksst/cdk-ec2-spot-simple-go/cdkec2spotsimple/v2
 
 go 1.18
 

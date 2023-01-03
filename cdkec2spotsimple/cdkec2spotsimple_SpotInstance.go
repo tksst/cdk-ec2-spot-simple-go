@@ -3,13 +3,13 @@ package cdkec2spotsimple
 
 import (
 	_jsii_ "github.com/aws/jsii-runtime-go/runtime"
-	_init_ "github.com/tksst/cdk-ec2-spot-simple-go/cdkec2spotsimple/jsii"
+	_init_ "github.com/tksst/cdk-ec2-spot-simple-go/cdkec2spotsimple/v2/jsii"
 
 	"github.com/aws/aws-cdk-go/awscdk/v2"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awsec2"
 	"github.com/aws/aws-cdk-go/awscdk/v2/awsiam"
 	"github.com/aws/constructs-go/constructs/v10"
-	"github.com/tksst/cdk-ec2-spot-simple-go/cdkec2spotsimple/internal"
+	"github.com/tksst/cdk-ec2-spot-simple-go/cdkec2spotsimple/v2/internal"
 )
 
 // This represents a single EC2 Spot instance and other necessary resources.
