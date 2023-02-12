@@ -1,5 +1,11 @@
 # cdk-ec2-spot-simple
 
+[![npm](https://img.shields.io/npm/v/cdk-ec2-spot-simple)](https://www.npmjs.com/package/cdk-ec2-spot-simple)
+[![PyPI](https://img.shields.io/pypi/v/cdk-ec2-spot-simple)](https://pypi.org/project/cdk-ec2-spot-simple)
+[![Nuget](https://img.shields.io/nuget/v/TksSt.Cdk.Ec2SpotSimple)](https://www.nuget.org/packages/TksSt.Cdk.Ec2SpotSimple)
+[![Maven Central](https://img.shields.io/maven-central/v/st.tks.cdk/ec2-spot-simple)](https://search.maven.org/artifact/st.tks.cdk/ec2-spot-simple)
+[![View on Construct Hub](https://constructs.dev/badge?package=cdk-ec2-spot-simple)](https://constructs.dev/packages/cdk-ec2-spot-simple)
+
 CDK construct library to create EC2 Spot Instances simply.
 
 ## Install
@@ -8,6 +14,14 @@ CDK construct library to create EC2 Spot Instances simply.
 
 ```shell
 npm install cdk-ec2-spot-simple
+```
+
+```shell
+pnpm add cdk-ec2-spot-simple
+```
+
+```shell
+yarn add cdk-ec2-spot-simple
 ```
 
 ### Python
@@ -43,7 +57,7 @@ To set up a spot instance with default parameters, simply use "SpotInstance" ins
 
 ```go
 import { SpotInstance } from "cdk-ec2-spot-simple"
-import * as ec2 from "aws-cdk-lib/ec2"
+import * as ec2 from "aws-cdk-lib/aws-ec2"
 
 // Simple usage
 new SpotInstance(this, "DefaultConfigSpotInstance", {
@@ -68,9 +82,13 @@ new SpotInstance(this, "StoppableSpotInstance", {
 });
 ```
 
+## API document
+
+[See Construct Hub](https://constructs.dev/packages/cdk-ec2-spot-simple)
+
 ## Background
 
-The `Instance` construct in `aws-cdk-lib/ec2` does not have any spot instance functionality.
+The `Instance` construct in `aws-cdk-lib/aws-ec2` does not have any spot instance functionality.
 
 This `SpotInstance` construct creates `LaunchTemplate` that is enabled spot request internally and associate with `Instance`.
 
