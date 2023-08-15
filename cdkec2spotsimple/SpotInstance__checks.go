@@ -1,6 +1,5 @@
 //go:build !no_runtime_type_checking
 
-// CDK construct library to create EC2 Spot Instances simply.
 package cdkec2spotsimple
 
 import (

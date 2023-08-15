@@ -1,4 +1,3 @@
-// CDK construct library to create EC2 Spot Instances simply.
 package cdkec2spotsimple
 
 import (
